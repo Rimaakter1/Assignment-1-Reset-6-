@@ -25,10 +25,11 @@ header {
 
 }
 
-.banner-description {
+.description {
     font-weight: 400;
     font-size: 16px;
     margin-top: 10px;
+    color: #444343;
 }
 
 .btn-orange {
@@ -40,4 +41,42 @@ header {
     background-color: #F15B22;
     color: #fff;
     margin-top: 25px;
+}
+
+/* main style  */
+/* failure section style  */
+
+.failure-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.failure-container {
+    margin-top: 270px;
+    margin-left: -98px;
+}
+
+.girl-img img {
+    margin-top: 100px;
+    height: 600px;
+    width: 500px;
+
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 18px;
+}
+
+ul li {
+    list-style: none;
+    color: #444343;
+    margin-top: 15px;
+}
+
+ul li i {
+    color: #16D887;
+
 }
