@@ -43,6 +43,12 @@ header {
     margin-top: 25px;
 }
 
+.btn-orange:hover {
+    color: #F15B22;
+    background-color: #FFFFFF;
+    border: 2px solid #F15B22;
+}
+
 /* main style  */
 /* failure section style  */
 
@@ -74,6 +80,7 @@ ul li {
     list-style: none;
     color: #444343;
     margin-top: 15px;
+
 }
 
 ul li i {
@@ -92,7 +99,7 @@ ul li i {
     font-weight: 700;
     font-size: 40px;
     text-align: center;
-    margin-bottom: 65px;
+    margin-bottom: 70px;
     color: #151414;
 }
 
@@ -103,7 +110,7 @@ ul li i {
 }
 
 .plan-1 {
-    margin-left: 70px;
+    margin-left: 100px;
 }
 
 .plan-4 {
@@ -150,4 +157,95 @@ ul li i {
     font-weight: 500;
     font-size: 22px;
     color: #737272;
+}
+
+/* call now section  */
+.call-section {
+    background-image: linear-gradient(to left, rgba(245, 246, 252, 0), rgba(244, 95, 15, 0.521)), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    margin: 0 150px 120px 130px;
+}
+
+#call-section-title {
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px 32px;
+    color: #F15B22;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    color: #FFFFFF;
+    background-color: #F15B22;
+}
+
+.call-now-container {
+    padding: 65px;
+
+}
+
+/* footer style  */
+
+footer {
+    background-color: #151414;
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+    padding-top: 90px;
+
+}
+
+#future-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.desc {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+}
+
+.future-container {
+    margin-left: -55px;
+}
+
+.future-container a {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.subscribe-container {
+    margin-top: 25px;
+
+}
+
+#subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 15px 38px;
+    color: #FFFFFF;
+    background-color: #151414;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
 }
